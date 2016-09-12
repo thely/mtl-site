@@ -5,10 +5,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+		<script src="https://use.fontawesome.com/87024a16ce.js"></script>
 
 		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
 
 		<!--[if lt IE 9]>
 	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -17,12 +20,12 @@
 
 		<title>Music Technology Lab Support</title>
 	</head>
-	<body><div class="container">
+	<body>
 		<header>
 			<nav class="navbar navbar-default">
-				<div class="container-fluid">
+				<div class="container">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#">MTL Help</a>
+						<a class="navbar-brand" href="#">MTL</a>
 					</div>
 					<div class="collapse navbar-collapse" id="mtl-top-nav">
 						<ul class="nav navbar-nav">
@@ -48,26 +51,28 @@
 					</div>
 				</div>
 			</nav>
-			<div class="col-sm-4 pull-right">
-				<div class="panel panel-danger">
-					<div class="panel-heading">
-						<div class="panel-title">
-							<h4>If something's wrong</h4>
+			<div class="container">
+				<div class="col-sm-4 pull-right">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<div class="panel-title">
+								<h4>If something's wrong</h4>
+							</div>
+						</div>
+						<div class="panel-body">
+							If something isn't working in the lab and it's not covered by this site, please ask or email the current lab manager.
+
+							<p>Becky Brown<br />
+							<code>bbrown5</code> at <code>richmond</code></p>
 						</div>
 					</div>
-					<div class="panel-body">
-						If something isn't working in the lab and it's not covered by this site, please ask or email the current lab manager.
-
-						<p>Becky Brown<br />
-						<code>bbrown5</code> at <code>richmond</code></p>
-					</div>
 				</div>
+				<h1>MTL Help</h1>
+				<p>Welcome to the Music Technology Lab! This page has general information, resources, and answers to common questions for the software and technology you'll be using in this room. This is a work in progress, so if you have suggestions of common issues to add, leave me a note at <code>bbrown5</code> at <code>richmond</code>.</p>
 			</div>
-			<h1>MTL Help</h1>
-			<p>Welcome to the Music Technology Lab! This page has general information, resources, and answers to common questions for the software and technology you'll be using in this room. This is a work in progress, so if you have suggestions of common issues to add, leave me a note at <code>bbrown5</code> at <code>richmond</code>.</p>
 		</header>
-		<article>
-			<a name="common-problems"><h2>Common Questions</h2></a>
+		<div class="container"><article>
+			<a name="common-problems"><h2><img class="app-logo" src="images/HelpIcon.png" />Common Questions</h2></a>
 			<dl>
 				<dt>Where should I save my files?</dt>
 				<dd>If you're saving your files on one of the lab stations, save it in the Data drive. You can find the Data drive by opening Finder (file viewer), and the Data drive will be available on the sidebar.</dd>
@@ -78,7 +83,7 @@
 			</dl>
 		</article>
 		<article>
-			<a name="practica-musica"><h2>Practica Musica</h2></a>
+			<a name="practica-musica"><h2><img class="app-logo" src="images/PracMus3.png" />Practica Musica</h2></a>
 			<!-- <div class="col-sm-12"> -->
 				<div class="panel panel-default">
 					<div class="panel-heading">
@@ -102,7 +107,7 @@
 
 		</article>
 		<article>
-			<a name="earmaster"><h2>EarMaster Cloud</h2></a>
+			<a name="earmaster"><h2><img class="app-logo" src="images/EarMaster.png" />EarMaster Cloud</h2></a>
 			<!-- <div class="col-sm-12"> -->
 				<div class="panel panel-default">
 					<div class="panel-heading">
@@ -122,12 +127,12 @@
 		<!-- 	</div> -->
 		</article>
 		<article>
-			<a name="finale"><h2>Finale 2014</h2></a>
+			<a name="finale"><h2><img class="app-logo" src="images/Finalex.png" />Finale 2014</h2></a>
 			<p>View the Finale for Mac user manual <a href="https://usermanuals.finalemusic.com/Finale2014Mac/Content/Contents.htm">here</a>.</p>
 			<h3>Troubleshooting</h3>
 			<dl>
 				<dt>I can't hear my keyboard.</dt>
-				<dd>Go to <code>MIDI/Audio > Device Setup > MIDI/Internal Speaker Setup</code>. Make sure that the first entry under Input Device says "Axiom Pro 64" or something similar. Usually this is enough to get the keyboard to start working again</dd>
+				<dd>Go to <code>MIDI/Audio > Device Setup > MIDI/Internal Speaker Setup</code>. Make sure that the first entry under Input Device says "Axiom Pro 64" or something similar. Usually this is enough to get the keyboard to start working again.</dd>
 			</dl>
 			<h3>Speedy Entry Reference</h3>
 			<p>Using Speedy Entry in Finale will make score entry much easier, even though at first it seems difficult or annoying.</p>
@@ -164,11 +169,9 @@
 					</tr>
 				</tbody>
 			</table>
-			<h4>Altering Notes</h4>
-			<p>You can adjust the 
 		</article>
 		<article>
-			<a name="mac-tips"><h2>General Mac Tips</h2></a>
+			<a name="mac-tips"><h2><img class="app-logo" src="images/imac.png" />General Mac Tips</h2></a>
 			<h3>Shortcuts/Key Commands</h3>
 			<p>Below are some helpful shortcut keys. If you're used to using shortcut keys on a Windows computer, most of your Windows shortcuts are the same or similar, but use Command (⌘) instead of Control.</p>
 			<p>If you're looking for more, Apple has a <a href="https://support.apple.com/en-us/HT201236">much longer list</a> of general key commands.</p>
@@ -303,6 +306,8 @@
 					</tr>
 				</tbody>
 			</table>
+		</article>
+		</div>
 		<footer>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 			<!-- Latest compiled and minified JavaScript -->
