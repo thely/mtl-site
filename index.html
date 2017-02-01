@@ -214,10 +214,19 @@
 			<p>View the Finale for Mac user manual <a href="https://usermanuals.finalemusic.com/Finale2014Mac/Content/Contents.htm">here</a>.</p>
 			<h3>Troubleshooting</h3>
 			<dl>
+				<dt>I can't hear through my headphones/why is sound coming out of the computer speaker?</dt>
+				<dd>Go to <code>MIDI/Audio > Device Setup > Audio Setup</code>, and set the Output Source to "Scarlett 18i20." If you press Test Audio Output and you still hear the sound out of the computer speakers, save your score, restart Finale, and repeat these steps again.</dd>
 				<dt>I can't hear my keyboard.</dt>
 				<dd>Go to <code>MIDI/Audio > Device Setup > MIDI/Internal Speaker Setup</code>. Make sure that the first entry under Input Device says "Axiom Pro 64" or something similar. Usually this is enough to get the keyboard to start working again.</dd>
+			</dl>
+			<h3>Common Questions</h3>
+			<dl>
 				<dt>How do I enter harmonic analysis again?</dt>
-				<dd>Make sure you're using the Lyrics Tool with Finale Numerics as your font. All the shortcut keys are listed on the <a href="https://usermanuals.finalemusic.com/Finale2014Mac/Content/Finale/HarmonicAnalysis.htm">Harmonic analysis page</a> in the Finale manual.
+				<dd>Make sure you're using the Lyrics Tool with Finale Numerics as your font. All the shortcut keys are listed on the <a href="https://usermanuals.finalemusic.com/Finale2014Mac/Content/Finale/HarmonicAnalysis.htm">Harmonic analysis page</a> in the Finale manual.</dd>
+				<dt>How do I switch stem directions?</dt>
+				<dd>If you only need to change single notes, go to <code>Special Tools > Stem Direction</code> (wrench icon on the tool palette). Click on the measure you want to change, and then click on the boxes above/below the staff to change direction.
+
+				<br /><br />If you want to change stem direction on a lot of notes, select the measures you want to alter, and go to <code>Utilities > Stem Direction</code>. If you want to change stem direction on a lot of notes in one layer only, first enable <code>Document > Show Active Layer Only</code>, alter the stem direction as before, and then disable Show Active Layer Only.</dd>
 			</dl>
 			<h3>Speedy Entry Reference</h3>
 			<p>Using Speedy Entry in Finale makes score entry much easier, even though at first it seems difficult or annoying. Some of these key commands are similar in other notation programs like Sibelius and MuseScore, so it's worthwhile to learn them now. For all the speedy entry key commands, check the <a href="https://usermanuals.finalemusic.com/Finale2014Mac/Content/Finale/Speedy_Entry.htm?Highlight=speedy%20entry">Speedy Entry page</a> of the manual.</p>
@@ -251,6 +260,43 @@
 						<td>half</td>
 						<td>whole</td>
 						<td>dotted-</td>
+					</tr>
+				</tbody>
+			</table>
+			<h4>Other Tricks</h4>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Key</th>
+						<th>Effect</th>
+						<th>Key</th>
+						<th>Effect</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>/</td>
+						<td>Break/join beams</td>
+						<td>L</td>
+						<td>Flip stem direction</td>
+					</tr>
+					<tr>
+						<td>;</td>
+						<td>Make grace note</td>
+						<td>Option + 3</td>
+						<td>Make triplet from next notes entered (works with numbers 2-9)</td>
+					</tr>
+					<tr>
+						<td>=</td>
+						<td>Tie to next note</td>
+						<td>H</td>
+						<td>Hide note</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>Change note to its enharmonic</td>
+						<td>+ / -</td>
+						<td>Raise/lower note by half step</td>
 					</tr>
 				</tbody>
 			</table>
